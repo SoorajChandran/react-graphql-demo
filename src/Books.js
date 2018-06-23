@@ -17,8 +17,8 @@ const Books = () => (
     `}
   >
     {({ loading, error, data }) => {
-      if (loading) return <p>Loading ...</p>
-      if (error) return <p>Error :(</p>
+      if (loading) return <p>Good things take time....</p>
+      if (error) return <p>Something went wrong...</p>
 
       return <div className="row">{data.allBooks.map(book => <Book book={book} />)}</div>
     }}

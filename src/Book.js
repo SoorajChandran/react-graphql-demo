@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 const Book = props => (
   <div className="card col-sm-3">
@@ -7,6 +7,6 @@ const Book = props => (
       <h6 className="card-subtitle mb-2 text-muted">{props.book.author}</h6>
     </div>
   </div>
-);
+)
 
-export default Book;
+export default Book

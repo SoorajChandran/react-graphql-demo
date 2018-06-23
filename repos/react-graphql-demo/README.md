@@ -1,2 +1,0 @@
-## GraphQL Demo in React
-

@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import ApolloClient from 'apollo-boost'
 import { ApolloProvider } from 'react-apollo'
 import Books from './Books'
@@ -10,7 +10,7 @@ const client = new ApolloClient({
 const App = () => (
   <ApolloProvider client={client}>
     <nav className="navbar">
-      <a className="navbar-brand" href="#">
+      <a className="navbar-brand" href="">
         GraphQL in React - Demo application
       </a>
     </nav>

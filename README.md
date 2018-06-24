@@ -8,3 +8,17 @@ cd react-graphql-demo
 yarn && yarn start
 ```
 
+### Linting
+
+```
+yarn lint
+```
+
+### Formatting using prettier
+
+```
+yarn format
+```
+
+[http://soorajchandran.me/react-graphql-demo/](Live demo)
+

@@ -20,5 +20,5 @@ yarn lint
 yarn format
 ```
 
-[http://soorajchandran.me/react-graphql-demo](Live demo)
+[Live demo](http://soorajchandran.me/react-graphql-demo)
 
